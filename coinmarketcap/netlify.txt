@@ -1,0 +1,7 @@
+In the very beginning of our Project, we gonna create Netlify app which will then be connected with github so any changes will reflect in github
+
+1) ntl.fyi/... ---> Signup
+
+2) After that,   npm i netlify-cli -g
+
+3) In terminal(cmd of VS code), run ` ntl dev `  
