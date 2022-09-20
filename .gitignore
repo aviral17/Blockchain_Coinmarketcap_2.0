@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/coinmarketcap/node_modules
+/coinmarketcap/.pnp
+/coinmarketcap/.pnp.js
+
+# testing
+/coinmarketcap/coverage
+
+# next.js
+/coinmarketcap/.next/
+/coinmarketcap/out/
+
+# production
+/coinmarketcap/build
+
+# misc
+/coinmarketcap/.DS_Store
+/coinmarketcap/*.pem
+
+# debug
+/coinmarketcap/npm-debug.log*
+/coinmarketcap/yarn-debug.log*
+/coinmarketcap/yarn-error.log*
+/coinmarketcap/.pnpm-debug.log*
+
+# local env files
+/coinmarketcap/.env*.local
+
+# vercel
+/coinmarketcap/.vercel
+
+# typescript
+/coinmarketcap/*.tsbuildinfo
+/coinmarketcap/next-env.d.ts
+
+# Local Netlify folder
+/coinmarketcap/.netlify
