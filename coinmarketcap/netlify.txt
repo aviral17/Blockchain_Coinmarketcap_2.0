@@ -1,7 +1,16 @@
-In the very beginning of our Project, we gonna create Netlify app which will then be connected with github so any changes will reflect in github
+In the very beginning of our Project, we gonna create Netlify app which will then be connected with github so any changes/push to Github Repo will reflect in Netlify Live App
 
 1) ntl.fyi/... ---> Signup
 
 2) After that,   npm i netlify-cli -g
 
-3) In terminal(cmd of VS code), run ` ntl dev `  
+3) In terminal(cmd of VS code), run ` ntl dev `
+
+--------------------------------------------------------------------------------------
+1) ntl init --> github login
+2) (2nd option) Create and configure a new site
+3) Aviral(single)
+4) blockchain1-coinmarketcap (site name whatever we like)
+5) sign in and authorize with github again
+6) npm run build
+7) enter, enter, yes, yes

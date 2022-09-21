@@ -1,0 +1,16 @@
+[(A)] Server Error
+Error: Invalid src prop (https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg) on `next/image`, hostname "s2.coinmarketcap.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+
+This error happened while generating the page. Any console logs will be displayed in the terminal window.
+
+((Solution)) ---> In next.config.js, REMOVE ` reactStrictMode: true, ` and add (replace with) 
+` images: {
+    domains: [
+      "s2.coinmarketcap.com",
+      "s3.coinmarketcap.com",
+      "encrypted-tbn0.gstatic.com",
+    ],
+  }, ` 
+
+/* We are doing this as we are using https link in <Image src={https//.....}>, so that link or any other link which me might use in future, will be added to that next.config.js file */
